@@ -1,0 +1,33 @@
+to do list of architechture
+start to mongodb server
+
+back 
+1 create server 
+2 relie server avec mongodb using mongoose
+3- create architecture midellwares, services, utils, controllers, models, routes
+4- create apis
+
+
+front
+1 create admin and client side using npmx create-react-app admin /client dans le projet
+2 react router dom
+3= create architechture of front components hooks utils pages layout
+4- relie api with project
+
+
+
+intigration
+
+serve front from backend 
+
+1- switch to front (admin)
+2- npm run build
+
+3- swicth to server 
+4- serve build folder from server app.use(url, express.static(build folder of admin))
+
+
+4- serve front (
+    dossier admin then run npm run build (for testing)
+    app.use url, express.static dossier build
+) from server fro admin adn client
